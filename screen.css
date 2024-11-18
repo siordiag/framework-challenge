@@ -2,3 +2,17 @@
 a.active {
     font-weight: bold;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: max-content;
+    background-image: url('images/airplane.jpg');
+    background-size: 100vw 100vh;
+}
+
+.card {
+    margin-top: 160px;
+    width: 500px;
+    height: 500px;
+}
